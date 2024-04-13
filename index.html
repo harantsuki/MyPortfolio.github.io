@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="public/style.css" />
+  </head>
+  <style>
+    html,
+    * {
+      font-family: "Montserrat", sans-serif;
+      scroll-behavior: smooth;
+    }
+    .active {
+      transform: translateX(0);
+    }
+  </style>
+  <body class="">
+    <!-- PAGE-1 -->
+
+    <header
+      id="home"
+      class="container-1 bg-cover bg-center min-h-screen bg-fixed"
+      style="background-image: url(./assets/images/bg1.jpg)"
+    >
+      <nav
+        class="navbar flex backdrop-blur-sm justify-between items-center py-5 px-10 fixed w-full z-50"
+      >
+        <div class="logo-1 sm:hidden flex text-slate-200 text-2xl font-bold">
+          <h1>C</h1>
+          <h1 class="text-emerald-900">H</h1>
+        </div>
+        <div class="logo-2 hidden sm:flex text-slate-200 font-bold">
+          <h1>Chlyn</h1>
+          <h1 class="text-emerald-900">Havia</h1>
+        </div>
+        <i
+          id="menu"
+          class="fa-solid fa-bars-staggered sm:hidden text-slate-200 text-2xl z-20 hover:text-emerald-500 hover:scale-125 duration-300"
+        ></i>
+        <div
+          id="hamburger-menu"
+          class="navbar-content-1 sm:hidden absolute bg-green-950/80 min-h-screen w-full flex left-0 top-0 justify-center flex-col items-center text-3xl gap-20 list-none text-slate-200 z-10 translate-x-full duration-300"
+        >
+          <li>
+            <a
+              href="#home"
+              class="hover:tracking-[10px] hover:font-bold duration-300"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="hover:tracking-[10px] hover:font-bold duration-300"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="hover:tracking-[10px] hover:font-bold duration-300"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="hover:tracking-[10px] hover:font-bold duration-300"
+              >Contant</a
+            >
+          </li>
+        </div>
+        <div
+          class="navbar-content-2 hidden sm:flex justify-between items-center z-10 list-none text-slate-200 w-1/3"
+        >
+          <li>
+            <a
+              href="#home"
+              class="hover:tracking-widest hover:font-bold duration-300"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="hover:tracking-widest hover:font-bold duration-300"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="hover:tracking-widest hover:font-bold duration-300"
+              >Services</a
+            >
+          </li>
+        </div>
+        <button
+          class="hidden sm:block hover:font-bold hover:tracking-widest hover:rounded-xl duration-300 bg-green-800 py-1 rounded-md px-5 text-slate-200"
+        >
+          Contact
+        </button>
+      </nav>
+      <nav
+        class="content-header min-h-[100vh] flex justify-center items-center"
+      >
+        <div
+          class="main-content-1 text-white flex flex-col justify-center items-center"
+        >
+          <p class="text-1xl tracking-[10px]">hello I'm chlyn I'm a</p>
+          <h1 class="text-5xl font-bold">
+            FRONT <span class="text-emerald-500">END</span>
+          </h1>
+          <h1 class="text-4xl font-bold">DEVELOPER</h1>
+          <button
+            class="bg-emerald-900 mt-3 rounded-md py-2 px-5 tracking-widest hover:tracking-[10px] hover:font-bold duration-300"
+          >
+            <a href="#about">Next></a>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- PAGE-2 -->
+
+    <nav
+      id="about"
+      class="about min-h-screen bg-neutral-950 bg-cover bg-center flex flex-col justify-between items-center text-white py-20 px-10 sm:flex-row"
+    >
+      <div
+        class="flex flex-col sm:w-1/2 justify-center items-center sm:justify-start sm:items-start z-20"
+      >
+        <p class="text-1xl tracking-[10px]">this is</p>
+        <h1 class="text-5xl font-bold">ABOUT ME</h1>
+        <h1 class="text-5xl font-bold text-emerald-500">CHLYN</h1>
+        <p class="mt-3 text-center text-[18px] font-extralight sm:text-start">
+          Hello, let me introduce myself, my name is Chlyn Havia, I come from
+          Indonesia, Probolinggo City, I am a student at SMK Tamansiswa 1, apart
+          from being a student, I am also a front end web developer, and I am
+          still developing to become a fullstack web developer.
+        </p>
+        <button
+          class="mr-auto bg-emerald-900 mt-7 rounded-md py-2 px-5 tracking-widest hover:tracking-[10px] hover:font-bold duration-300 hidden sm:block"
+        >
+          <a href="#services">Next></a>
+        </button>
+      </div>
+      <div class="flex z-20">
+        <img
+          class="ml-auto rounded-xl w-[300px] hover:shadow-xl hover:shadow-emerald-500/30 duration-300 sm:w-1/2"
+          src="./assets/images/pp.png"
+          alt=""
+        />
+      </div>
+      <button
+        class="bg-emerald-900 mt-3 rounded-md py-2 px-5 tracking-widest hover:tracking-[10px] hover:font-bold duration-300 sm:hidden z-20"
+      >
+        <a href="#services">Next></a>
+      </button>
+    </nav>
+
+    <!-- PAGE-3 -->
+
+    <nav id="services" class="min-h-screen"></nav>
+    <script src="public/script.js"></script>
+  </body>
+</html>
