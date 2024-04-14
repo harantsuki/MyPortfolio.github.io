@@ -48,7 +48,7 @@
         ></i>
         <div
           id="hamburger-menu"
-          class="navbar-content-1 sm:hidden absolute bg-green-950/80 min-h-screen w-full flex left-0 top-0 justify-center flex-col items-center text-3xl gap-20 list-none text-slate-200 z-10 translate-x-full duration-300"
+          class="navbar-content-1 sm:hidden absolute bg-green-950/80 min-h-screen w-full flex left-0 top-0 justify-center flex-col items-center text-xl gap-10 list-none text-slate-200 z-10 translate-x-full duration-300"
         >
           <li>
             <a
@@ -73,7 +73,7 @@
           </li>
           <li>
             <a
-              href="#"
+              href="https://api.whatsapp.com/"
               class="hover:tracking-[10px] hover:font-bold duration-300"
               >Contant</a
             >
@@ -107,7 +107,7 @@
         <button
           class="hidden sm:block hover:font-bold hover:tracking-widest hover:rounded-xl duration-300 bg-green-800 py-1 rounded-md px-5 sm:px-10 text-slate-200"
         >
-          <a href="#">Contact</a>
+          <a href="https://api.whatsapp.com/">Contact</a>
         </button>
       </nav>
       <nav
@@ -129,9 +129,13 @@
             <a href="#about">Next></a>
           </button>
         </div>
-        <h1
+        <div
           class="border-t-[1px] border-neutral-200 w-full text-center mt-auto"
-        ></h1>
+        >
+          <h1 class="mt-2 text-neutral-200 tracking-widest text-xs">
+            - home -
+          </h1>
+        </div>
       </nav>
     </header>
 
@@ -197,6 +201,11 @@
             <p>Experience</p>
           </span>
         </div>
+        <h1
+          class="mt-2 text-neutral-200 tracking-widest text-xs hidden sm:block"
+        >
+          - about -
+        </h1>
         <div class="flex flex-row justify-center items-center mt-2">
           <h1 class="text-6xl font-bold text-emerald-500">1</h1>
           <span class="flex flex-col leading-[15px] ml-1">
@@ -210,14 +219,149 @@
     <!-- PAGE-3 -->
 
     <nav
-      class="min-h-screen py-7 px-5 sm:px-10 bg-cover bg-center bg-fixed"
+      id="skill"
+      class="min-h-screen py-7 px-5 sm:px-10 bg-cover bg-center bg-fixed flex flex-col justify-center items-center"
       style="background-image: url(./assets/images/bg2.jpg)"
     >
-      <p>This is</p>
-      <h1>My Skill</h1>
+      <div class="flex justify-center items-center flex-col mt-auto">
+        <p class="text-1xl tracking-[10px] text-neutral-200">This is</p>
+        <h1 class="text-5xl text-neutral-200 tracking-[5px] font-bold">
+          My <span class="text-emerald-500">Skill</span>
+        </h1>
+        <h1 class="text-4xl text-neutral-200 font-bold">LEAGUAGE</h1>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 place-items-center w-full gap-10 mt-16"
+        >
+          <div
+            class="h-52 w-52 bg-neutral-950 flex flex-col justify-center items-center rounded-[5px] hover:rounded-xl hover:shadow-xl hover:shadow-emerald-500/30 duration-300 group"
+          >
+            <i
+              class="fa-brands fa-html5 text-emerald-500 text-6xl group-hover:-translate-y-2 duration-300"
+            ></i>
+            <h1
+              class="text-neutral-200 group-hover:tracking-widest group-hover:font-bold duration-300"
+            >
+              HTML
+            </h1>
+          </div>
+          <div
+            class="h-52 w-52 bg-neutral-950 flex flex-col justify-center items-center rounded-[5px] hover:rounded-xl hover:shadow-xl hover:shadow-emerald-500/30 duration-300 group"
+          >
+            <i
+              class="fa-brands fa-css3 text-emerald-500 text-6xl group-hover:-translate-y-2 duration-300"
+            ></i>
+            <h1
+              class="text-neutral-200 group-hover:tracking-widest group-hover:font-bold duration-300"
+            >
+              CSS
+            </h1>
+          </div>
+          <div
+            class="h-52 w-52 bg-neutral-950 flex flex-col justify-center items-center rounded-[5px] hover:rounded-xl hover:shadow-xl hover:shadow-emerald-500/30 duration-300 group"
+          >
+            <i
+              class="fa-brands fa-js text-emerald-500 text-6xl group-hover:-translate-y-2 duration-300"
+            ></i>
+            <h1
+              class="text-neutral-200 group-hover:tracking-widest group-hover:font-bold duration-300"
+            >
+              JAVASCRIPT
+            </h1>
+          </div>
+          <div
+            class="h-52 w-52 bg-neutral-950 flex flex-col justify-center items-center rounded-[5px] hover:rounded-xl hover:shadow-xl hover:shadow-emerald-500/30 duration-300 group"
+          >
+            <i
+              class="fa-brands fa-react text-emerald-500 text-6xl group-hover:-translate-y-2 duration-300"
+            ></i>
+            <h1
+              class="text-neutral-200 group-hover:tracking-widest group-hover:font-bold duration-300"
+            >
+              REACT JS
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="border-t-[1px] border-neutral-200 w-full text-center mt-auto">
+        <h1 class="mt-2 text-neutral-200 tracking-widest text-xs">- skill -</h1>
+      </div>
     </nav>
 
-    <nav id="skill" class="min-h-screen"></nav>
+    <!-- FOOTER -->
+
+    <nav
+      class="py-5 px-5 sm:px-10 bg-neutral-950 flex flex-col justify-center items-center text-neutral-200"
+    >
+      <h1 class="flex flex-row font-bold text-3xl">
+        CHLYN <span class="text-emerald-500">HAVIA</span>
+      </h1>
+      <p class="tracking-[6px] text-[10px]">- DEVELOPER -</p>
+      <ul
+        class="grid place-items-center grid-cols-2 sm:grid-cols-4 gap-x-16 mt-8"
+      >
+        <li>
+          <a
+            class="hover:tracking-widest hover:font-bold duration-300"
+            href="#home"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:tracking-widest hover:font-bold duration-300"
+            href="#about"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:tracking-widest hover:font-bold duration-300"
+            href="#skill"
+            >Skill</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:tracking-widest hover:font-bold duration-300"
+            href="https://api.whatsapp.com/"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class="flex flex-row gap-10 mt-5">
+        <div
+          class="bg-neutral-200 py-3 px-[17px] rounded-[100%] hover:border-2 hover:border-emerald-500 duration-300 group"
+        >
+          <a href="https://www.instagram.com/zenharan/"
+            ><i class="fa-brands fa-instagram text-emerald-500 duration-300"></i
+          ></a>
+        </div>
+        <div
+          class="bg-neutral-200 py-3 px-[17px] rounded-[100%] hover:border-2 hover:border-emerald-500 duration-300 group"
+        >
+          <a href="https://www.facebook.com/profile.php?id=100089302667610">
+            <i class="fa-brands fa-facebook text-emerald-500 duration-300"></i>
+          </a>
+        </div>
+        <div
+          class="bg-neutral-200 py-3 px-[17px] rounded-[100%] hover:border-2 hover:border-emerald-500 duration-300 group"
+        >
+          <a href="https://twitter.com/Harantsuki">
+            <i class="fa-brands fa-twitter text-emerald-500 duration-300"></i>
+          </a>
+        </div>
+      </div>
+      <p class="text-xs text-center mt-5">
+        Thank you for visiting my portfolio website, I hope you like the <br />
+        skills I have and I hope you can consider hiring me.
+      </p>
+      <div class="border-t-[1px] border-neutral-200 w-full text-center mt-10">
+        <h1 class="mt-2 text-neutral-200 tracking-widest text-xs">
+          - ©copyright by chlyn havia 2024 -
+        </h1>
+      </div>
+    </nav>
+
     <script src="public/script.js"></script>
   </body>
 </html>
